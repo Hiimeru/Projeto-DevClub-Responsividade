@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.wraper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-right {
+    background-color: rgba(93, 93, 125, 0.16);
+    width: 491px;
+    height: 901px;
+    position: absolute;
+    left: 949px;
+    top: 0px;
+}
+
+header{
+    padding: 24px 58px;
+}
+
+a{
+    margin-left: 41px;
+    color: #5D5D7D;
+    font-size: 20px;
+}
+
+a:first-child{
+    margin: 0;
+}
+
+a:nth-child(2) {
+    color: rgba(93, 93, 125, 0.4);
+}
+
+.cellphone-girl {
+    position: absolute;
+    top: 260px;
+    right: 177px;
+    bottom: 123px;
+    left: -100px;
+    height: 400px;
+}
+
+.container-left{
+    position: relative;
+    top: 260px;
+    left: 136px;
+    width: 500px;
+
+}
+
+p{
+    Width: 540px;
+    Height: 130px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    Width: 368px;
+    Height: 160px;
+    font-size: 70px;
+    font-weight: 400px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #5D5D7D;
+    margin-bottom: 15px;
+}
+
+.index-button {
+    width: 269px;
+    height: 62px;
+    background-color:#9499EA;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    font-family: Oswald;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.index-button:hover {
+    background-color: #58587e;
+}
+
+a:hover{
+    color: #3e3e6d;
+}
+
+@media screen and (max-width: 900px) {
+    .container-right{
+        top: 375px;
+        height: auto;
+        width: auto;
+        display: block;
+        position: static;
+        background-color:  rgba(93, 93, 125, 0.16);
+    }
+
+    .container-left{
+        width: auto;
+        height: 397px;
+        margin: 0;
+        padding: 0;
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    
+    header {
+        display: inline;
+        align-items: center;
+    }
+
+    .head-links{
+        margin-left: 35px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin-top: 40px;
+    }
+    
+    p {
+        margin: 15px 40px;
+        width: auto;
+        height: auto;
+        font-size: 20 px;
+        line-height: 24px;
+    }
+
+    .index-button {
+       margin: 0 auto;
+       display: block;
+       width: 229px;
+       height: 62px;
+    }
+
+    .cellphone-girl{
+        width: 271px;
+        height: 323px;
+        top: 443px;
+        left: 51px;
+        padding: 0;
+    }
+}
